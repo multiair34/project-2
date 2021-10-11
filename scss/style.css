@@ -368,7 +368,7 @@ template {
 }
 
 .header {
-  background: url(../img/header-bg.jpg) no-repeat center top/cover;
+  background: url(../img/header-bg.jpg) no-repeat center/cover;
   padding-top: 57px;
 }
 
@@ -415,5 +415,115 @@ template {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 215px;
+}
+
+.offer {
+  color: #FFFFFF;
+  font-size: 30px;
+  line-height: 44px;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  padding-bottom: 322px;
+}
+
+.offer__name {
+  font-size: 100px;
+  line-height: 147px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.offer__but {
+  display: block;
+  background: none;
+  padding: 16px 50px;
+  border: 1px solid #fff;
+}
+
+.offer__but a {
+  text-decoration: none;
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+button {
+  font-size: 17px;
+}
+
+.about {
+  margin-top: 115px;
+  margin-bottom: 114px;
+}
+
+.about__text {
+  font-size: 50px;
+  line-height: 73px;
+  text-transform: uppercase;
+  margin-bottom: 58px;
+}
+
+.about__news {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__news-item {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 45%;
+          flex: 1 0 45%;
+  padding-right: 36px;
+  padding-bottom: 67px;
+}
+
+.about__news-item h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+  line-height: 37px;
+  padding-bottom: 19px;
+}
+
+.about__news-item p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 26px;
+  text-align: justify;
+}
+
+.about__news-item:last-child {
+  padding-right: 0;
+}
+
+.about__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__img-item {
+  padding-right: 30px;
+}
+
+.about__img-item:last-child {
+  padding-right: 0;
+}
+
+.footer {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 80px;
+}
+
+.footer span {
+  padding-right: 55px;
+}
+
+.footer span:last-child {
+  padding-right: 0;
 }
 /*# sourceMappingURL=style.css.map */
